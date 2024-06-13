@@ -6,7 +6,7 @@ import { BinarySearchSubmit } from '../controllers/BinarySearchController.js';
 
 const router = express.Router();
 
-router.post('/', (req, res) => {
+router.get('/', (req, res) => {
   res.send('Hello World!');
 });
 router.post('/linear',LinearSearchSubmit);
